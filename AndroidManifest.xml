@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Dedi_N_Selistio.tebak_gambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MasukActivity"
+            android:label="@string/title_activity_masuk" >
+        </activity>
+        <activity
+            android:name=".TglActivity"
+            android:label="@string/title_activity_tgl" >
+        </activity>
+        <activity
+            android:name=".RumahActivity"
+            android:label="@string/title_activity_rumah" >
+        </activity>
+        <activity
+            android:name=".MakActivity"
+            android:label="@string/title_activity_mak" >
+        </activity>
+        <activity
+            android:name=".MAKANActivity"
+            android:label="@string/title_activity_makan" >
+        </activity>
+        <activity
+            android:name=".MakanActivity"
+            android:label="@string/title_activity_makan" >
+        </activity>
+        <activity
+            android:name=".CekActivity"
+            android:label="@string/title_activity_cek" >
+        </activity>
+        <activity
+            android:name=".Makan1Activity"
+            android:label="@string/title_activity_makan1" >
+        </activity>
+        <activity
+            android:name=".TanggaActivity"
+            android:label="@string/title_activity_tangga" >
+        </activity>
+        <activity
+            android:name=".KaosActivity"
+            android:label="@string/title_activity_kaos" >
+        </activity>
+        <activity
+            android:name=".KacaActivity"
+            android:label="@string/title_activity_kaca" >
+        </activity>
+        <activity
+            android:name=".SapatuActivity"
+            android:label="@string/title_activity_sapatu" >
+        </activity>
+        <activity
+            android:name=".NasibActivity"
+            android:label="@string/title_activity_nasib" >
+        </activity>
+        <activity
+            android:name=".SambelActivity"
+            android:label="@string/title_activity_sambel" >
+        </activity>
+        <activity
+            android:name=".EndActivity"
+            android:label="@string/title_activity_end" >
+        </activity>
+    </application>
+
+</manifest>
